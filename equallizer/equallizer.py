@@ -1,32 +1,22 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 import pyscreenshot as ImageGrab
-from PyQt5 import QtCore, QtGui, QtWidgets
 import pandas as pd
 import pdfkit
-import pathlib
-import pyautogui
 import matplotlib.pyplot as plt
 import wave
-import sys
 from numpy import genfromtxt
 from PyQt5.QtWidgets import QFileDialog
-from scipy.fftpack import fft
 from math import pi
 import pyqtgraph as pg
-import os
 import pathlib
 import pyautogui
 from PIL import Image
 from scipy import ndimage, misc, fftpack
-import sys
-from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QMainWindow, QApplication, QGraphicsScene, QGraphicsView
 from scipy import signal
-import numpy as np
 import pyqtgraph
 import PyQt5.QtCore as C
 # from final3 import Ui_MainWindow
-import sys
 import scipy
 import os
 from scipy.fftpack import fft
@@ -35,13 +25,10 @@ from pyqtgraph import PlotWidget ,PlotItem
 import qdarkgraystyle
 from pydub import AudioSegment
 from pydub.playback import play
-import numpy as np
 import IPython.display as ipd
 import librosa
 from librosa import display
-from scipy import signal
 from scipy.io import wavfile
-import matplotlib.pyplot as plot
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QPixmap
 import random
